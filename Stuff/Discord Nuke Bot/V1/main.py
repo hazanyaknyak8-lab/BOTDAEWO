@@ -49,7 +49,7 @@ class Config:
 
     # ===== SERVER SETTINGS =====
     SERVER_NAME = "666 BY XWANTED"  # New name for the server
-    SERVER_ICON_URL = "https://raw.githubusercontent.com/vn4thyt/vnsyt/refs/heads/main/Stuff/Discord%20Nuke%20Bot/server-icon.jpg"  # URL of new server icon
+    SERVER_ICON_URL = ""  # URL of new server icon
     NICKNAME = "NUKED BY XWA"  # New nickname for all members
     TIMEOUT_DURATION = 28  # Timeout duration in days for all members, anything above 28 will not work
 
